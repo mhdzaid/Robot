@@ -18,6 +18,15 @@
   * **API Interaction**: The frontend makes a single `POST` call as specified in the documentation. No `GET` calls are implemented.
   * **Data Handling**: The robot's position is received as a response to the `POST` call.
 
+### Time Taken
+* The project was completed in approximately 5 hours.
+* A significant portion of the time was devoted to the frontend development due to my relatively lower experience in this area compared to backend development.
+
+### Improvements
+* **User Interface**: Given more time, I would enhance the UI by replacing the current circle with an arrow for the robot's position with a more detailed robot icon, including a silhouette indicating the direction.
+* **Backend Enhancements**: Specifically for the `Direction Action`, I would consider refactoring the code to make it more abstract. Instead of relying on a `switch` statement with multiple cases, a more abstract approach could be employed to handle direction changes dynamically. However, given the current simplicity of the implementation, the existing approach was deemed sufficient for now.
+* **State Managment**: I did consider implementing state managment using `NgRx` but seeing how small the front-end requirements are, I found it a bit overkill, atleast with the current requirements. 
+
 ## AI Tools Usage
 
 ### Backend
